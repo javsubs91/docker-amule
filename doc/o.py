@@ -14,13 +14,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
-# ouo url
-# Examples:
-# https://ouo.io/HxFVfD - ouo.io links (no account -> only one step)
-# https://ouo.press/Zu7Vs5 - ouo.io links (with account -> two steps)
-# Can exchange between ouo.press and ouo.io
-
-url = "https://ouo.io/kJp1JNW"  # @param {type:"string"}
+url = "https://ouo.io/wlQ0O9c"  # @param {type:"string"}
 
 # -------------------------------------------
 # RECAPTCHA v3 BYPASS
