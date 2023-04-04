@@ -14,7 +14,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
-url = "https://ouo.io/bmYL9YW"  # @param {type:"string"}
+url = "https://ouo.io/peFfrT7"  # @param {type:"string"}
 
 # -------------------------------------------
 # RECAPTCHA v3 BYPASS
