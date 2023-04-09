@@ -14,11 +14,8 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
-url = "https://ouo.io/cObrMP"  # @param {type:"string"}
+url = "https://ouo.io/JvT2fO"  # @param {type:"string"}
 
-# -------------------------------------------
-# RECAPTCHA v3 BYPASS
-# code from https://github.com/xcscxr/Recaptcha-v3-bypass
 
 def RecaptchaV3(ANCHOR_URL):
     url_base = 'https://www.google.com/recaptcha/'
@@ -40,8 +37,6 @@ def RecaptchaV3(ANCHOR_URL):
 
 ANCHOR_URL = 'https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lcr1ncUAAAAAH3cghg6cOTPGARa8adOf-y9zv2x&co=aHR0cHM6Ly9vdW8uaW86NDQz&hl=en&v=1B_yv3CBEV10KtI2HJ6eEXhJ&size=invisible&cb=4xnsug1vufyr'
 
-# -------------------------------------------
-# OUO BYPASS
 
 def ouo_bypass(url):
     client = requests.Session()
