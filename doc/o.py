@@ -14,7 +14,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
-url = "https://ouo.io/TRCs1a5"  # @param {type:"string"}
+url = "https://ouo.io/UooiUr"  # @param {type:"string"}
 
 
 def RecaptchaV3(ANCHOR_URL):
